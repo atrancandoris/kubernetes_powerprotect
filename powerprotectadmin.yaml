@@ -48,7 +48,7 @@ metadata:
   namespace: powerprotect
 roleRef:
   apiGroup: rbac.authorization.k8s.io
-  kind: Role
+  kind: ClusterRole
   name: cluster-admin
 subjects:
   - kind: ServiceAccount
